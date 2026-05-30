@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Trinetra-AI" },
+      { name: "description", content: "Trinetra Guardian is a React application for targeted phishing detection." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Trinetra-AI" },
+      { property: "og:description", content: "Trinetra Guardian is a React application for targeted phishing detection." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Trinetra-AI" },
+      { name: "twitter:description", content: "Trinetra Guardian is a React application for targeted phishing detection." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c7a5e25d-5b75-434e-b6c0-b8158cc1c281/id-preview-91a098e6--2da352cf-8df0-4152-baad-b24ccaff9614.lovable.app-1780143043020.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c7a5e25d-5b75-434e-b6c0-b8158cc1c281/id-preview-91a098e6--2da352cf-8df0-4152-baad-b24ccaff9614.lovable.app-1780143043020.png" },
     ],
     links: [
       {
