@@ -9,7 +9,7 @@ export function BrandAnalysis({ result }: { result: ScanResult }) {
 
   const details = (ba?.details?.[org] ?? {}) as Record<string, unknown>;
   const jaro = typeof details.jaro_winkler === "number" ? (details.jaro_winkler as number) : 0;
-  const levenshtein = details.levenshtein;
+  const levenshtein = details.levenshtein as number | undefined;
   const orgName = result.target_org ?? org;
 
   return (
